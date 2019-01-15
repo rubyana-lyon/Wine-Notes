@@ -1,0 +1,159 @@
+/* global */
+body{
+    font-family: Montserrat, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Buttons */
+.btn-outline{
+    color: var(--wine-grey);
+    border: solid 3px #7C4FEF;
+    border-radius: 8px;
+    padding:20px 50px;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+}
+
+a:hover {
+  background-color: #7C4FEF;
+  color: white;
+  border: none;
+}
+
+/*header*/
+header{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 40px 40px;
+}
+
+.logo{
+    width: 50px;
+}
+
+.main-nav {
+    grid-column: 2 / span 3
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav ul li {
+    padding: 0 20px 0 0;
+}
+
+.nav-icons {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Landing */
+.landing-hero{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 0px 40px;
+}
+
+.hero-cta h1 {
+    color: var(--wine-grey)
+    max-width: 300px;
+    font-size: 2rem;
+}
+
+/* Hero Feature*/
+.hero-feature{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: var(--wine-light-green);
+}
+
+.hero-feature span{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Landing Wines */
+
+.landing-wines{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 0px 46px;
+}
+
+.landing-card {
+    margin: auto;
+    background-color: var(--wine-light-green);
+    display: block;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.h2{
+    text-align: center;
+}
+
+/* Learning Resources */
+
+.landing-explore-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.landing-explore{
+    margin: auto;
+    display: block;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.landing-explore img{
+    max-width: 600px;
+    height: auto;
+}
+
+/* Colors */
+:root{
+    --wine-grey:#2A2D34;
+}
+:root{
+    --wine-green:#67917B;
+}
+:root{
+    --wine-light-green:#F5F8F7;
+}
+:root{
+    --wine-purple:#7C4FEF;
+}
+:root{
+    --wine-light-purple:#D8D8F6;
+}
